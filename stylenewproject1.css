@@ -1,13 +1,14 @@
 body{
     background-color:hsl(30, 38%, 92%) ;
+        display: flex;
+            justify-content: center;
+            align-items: center;
 }
 /* المربع الكبير صورة + كتابة  */
 div{width:605px;
     height: 400px;
     display: block;
 position: relative;
-left: 300px;
-top:120px;
 
 }
 /* مربع الصورة*/
@@ -112,11 +113,10 @@ position: absolute;
 
 @media only screen and (max-width:500px)
 {
+
     div{
-top: 7px;
         width:250px;
-        height:720px ;
-        left: 10px;
+        height:720px;
 
     }
    
